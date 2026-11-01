@@ -1,0 +1,805 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mahalakshmi S | Embedded Systems & IoT Engineer</title>
+  <meta name="description" content="Mahalakshmi S — Electronics and Communication Engineering student at VIT Vellore building embedded systems, sensor interfacing and edge-AI projects on Arduino, ESP32-CAM and Raspberry Pi.">
+  <meta name="keywords" content="Mahalakshmi, Embedded Systems, IoT, Arduino, Raspberry Pi, ESP32-CAM, VIT Vellore, Maven Silicon, Portfolio">
+  <meta name="author" content="Mahalakshmi S">
+  <meta name="theme-color" content="#09090f">
+
+  <meta property="og:title" content="Mahalakshmi S | Embedded Systems & IoT">
+  <meta property="og:description" content="Explore my projects, technical skills, experience and achievements.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Background effects -->
+  <div class="background-effects" aria-hidden="true">
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="background-grid"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Mahalakshmi home">
+        Mahalakshmi<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuBtn"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="navigation" id="nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a
+        class="nav-resume"
+        href="MahaLakshmi_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Resume
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =================================================
+         HOME — matches the reference design
+         ================================================= -->
+    <section class="hx section" id="home">
+      <div class="hx-glow hx-glow-blue" aria-hidden="true"></div>
+      <div class="hx-glow hx-glow-purple" aria-hidden="true"></div>
+
+      <div class="hx-copy">
+        <p class="hx-tagline">Open to Embedded Systems / IoT roles</p>
+
+        <h1>
+          Hi, I'm <span class="hx-accent">Mahalakshmi</span>
+          <br>an embedded engineer who builds
+          <span class="hx-typed" id="typed" aria-live="polite"></span>
+        </h1>
+
+        <p class="hx-desc">
+          Electronics and Communication Engineering student at VIT Vellore with hands-on
+          experience in embedded systems and sensor interfacing, applying microcontroller
+          programming and hardware-software integration to real-world products.
+        </p>
+
+        <div class="hx-actions">
+          <a href="#projects" class="hx-btn hx-btn-primary">
+            View my work <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="hx-btn hx-btn-ghost">Get in touch</a>
+        </div>
+
+        <div class="hx-socials">
+          <a href="https://www.linkedin.com/in/mahalakshmi-subburaj-b4a29328b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/mahalakshmisubburaj" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:sasikalamahalakshmi2006@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- 3D tilt visual: round avatar, glass badges, orbiting skill icons -->
+      <div class="hx-visual">
+        <div class="hx-stage" id="tiltStage">
+          <div class="hx-ring"></div>
+          <div class="hx-ring hx-ring-dashed"></div>
+
+          <div class="hx-card" id="tiltCard">
+            <div class="hx-photo">
+              <img src="Mahalakshmi_Pic.jpg" alt="Portrait of Mahalakshmi S" loading="eager" style="object-position:center 8%;">
+            </div>
+
+            <div class="hx-badge hx-glass hx-badge-top">
+              <strong>8.96</strong>
+              <span>CGPA</span>
+            </div>
+            <div class="hx-badge hx-glass hx-badge-bottom">
+              <strong>4</strong>
+              <span>HW Projects</span>
+            </div>
+          </div>
+
+          <div class="hx-orbit">
+            <div class="hx-orbit-icon hx-glass" style="--angle:0deg"><i class="fa-solid fa-microchip"></i></div>
+            <div class="hx-orbit-icon hx-glass" style="--angle:60deg"><i class="fa-brands fa-raspberry-pi"></i></div>
+            <div class="hx-orbit-icon hx-glass" style="--angle:120deg"><i class="fa-solid fa-wifi"></i></div>
+            <div class="hx-orbit-icon hx-glass" style="--angle:180deg"><i class="fa-solid fa-satellite-dish"></i></div>
+            <div class="hx-orbit-icon hx-glass" style="--angle:240deg"><i class="fa-solid fa-camera"></i></div>
+            <div class="hx-orbit-icon hx-glass" style="--angle:300deg"><i class="fa-solid fa-bolt"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hx-scroll" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- =================================================
+         ABOUT — UPDATED TO MATCH YOUR SCREENSHOT
+         ================================================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">
+            <span class="gradient-text">01.</span> ABOUT ME
+          </span>
+
+          <h2>
+            A little about
+            <span class="gradient-text">my journey.</span>
+          </h2>
+
+          <p>
+            The short version of how I got here, and what I care about.
+          </p>
+        </div>
+
+        <div class="about-layout">
+
+          <!-- Round portrait -->
+          <div class="about-photo-wrap">
+            <div class="about-photo">
+              <img
+                src="Mahalakshmi_Pic.jpg"
+                alt="Mahalakshmi S"
+                loading="lazy"
+                onerror="this.style.display='none';"
+              >
+            </div>
+          </div>
+
+          <!-- About content -->
+          <div class="about-main card">
+            <p>
+              I'm an Electronics and Communication Engineering student at VIT Vellore
+              with a <span class="gradient-text">8.96 CGPA</span>, holding a 100% tuition
+              scholarship under the VIT STARS Scheme. I completed an embedded system design
+              internship at Maven Silicon and have built four hardware projects spanning
+              edge AI, RFID access control, smart traffic systems and laser-based optical communication.
+            </p>
+
+            <p>
+              I enjoy the space where hardware meets software: writing
+              <span class="accent-cyan">microcontroller code, interfacing sensors and integrating
+              hardware with software</span> so that real-world products work reliably.
+              I'm seeking an Embedded Systems / IoT role.
+            </p>
+
+            <div class="stat-row">
+              <div class="stat">
+                <strong>8.96</strong>
+                <span>CGPA</span>
+              </div>
+
+              <div class="stat">
+                <strong>4</strong>
+                <span>Hardware projects</span>
+              </div>
+
+              <div class="stat">
+                <strong>94-95%</strong>
+                <span>CNN test accuracy</span>
+              </div>
+
+              <div class="stat">
+                <strong>1</strong>
+                <span>IEEE-format paper</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         EXPERIENCE — PRESERVED
+         ================================================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">PROFESSIONAL EXPERIENCE</span>
+          <h2>Experience that <span class="gradient-text">moves me forward.</span></h2>
+          <p>Learning from real engineering workflows, testing ideas and solving technical problems.</p>
+        </div>
+
+        <div class="experience-list">
+
+          <article class="experience-card featured-experience">
+            <div class="experience-marker dell-marker">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+
+            <div class="experience-content">
+              <div class="experience-header">
+                <div>
+                  <span class="experience-type">EMBEDDED SYSTEMS · INTERNSHIP</span>
+                  <h3>Embedded System Design Intern</h3>
+                  <p class="company-name">Maven Silicon</p>
+                </div>
+              </div>
+
+              <p>
+                Completed an embedded system design internship focused on
+                building a practical assistive-technology prototype.
+              </p>
+
+              <ul class="experience-points">
+                <li>Developed an embedded obstacle detection system for the visually impaired.</li>
+                <li>Applied microcontroller programming and sensor interfacing to a real-world use case.</li>
+              </ul>
+
+              <div class="tag-list">
+                <span>Embedded Systems</span>
+                <span>Obstacle Detection</span>
+                <span>Sensor Interfacing</span>
+                <span>Assistive Tech</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         PROJECTS — PRESERVED
+         ================================================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">SELECTED WORK</span>
+          <h2>Projects built with <span class="gradient-text">purpose.</span></h2>
+          <p>Hardware and embedded projects spanning edge AI, SPI peripherals, sensor-driven control and optical communication.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-art art-career">
+              <div class="project-art-top">
+                <span class="project-number">01 / EDGE AI</span>
+                <i class="fa-solid fa-hands"></i>
+              </div>
+              <div class="art-illustration">
+                <i class="fa-solid fa-hand"></i>
+                <span class="art-node node-one"></span>
+                <span class="art-node node-two"></span>
+                <span class="art-node node-three"></span>
+              </div>
+              <span class="project-status"><span></span> PROTOTYPE BUILT</span>
+            </div>
+
+            <div class="project-info">
+              <span class="project-category">EMBEDDED · EDGE AI · COMPUTER VISION</span>
+              <h3>Offline Sign Language Recognition Using CNN</h3>
+              <p>
+                An edge-AI gesture recognition system: an ESP32-CAM (OV2640) captures 240×240 hand images and sends them over Wi-Fi (HTTP) to a Raspberry Pi 5, which runs an INT8-quantized TensorFlow Lite CNN locally with no cloud dependency. Achieves 94-95% test accuracy, showing the gesture and confidence score in about 12 s end-to-end.
+              </p>
+              <div class="tag-list">
+                <span>Raspberry Pi 5</span>
+                <span>ESP32-CAM</span>
+                <span>TensorFlow Lite</span>
+                <span>OpenCV</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/mahalakshmisubburaj" target="_blank" rel="noopener noreferrer" class="project-link project-link-full">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-voting">
+              <div class="project-art-top">
+                <span class="project-number">02 / SPI</span>
+                <i class="fa-solid fa-id-card-clip"></i>
+              </div>
+              <div class="art-illustration">
+                <i class="fa-solid fa-id-card"></i>
+              </div>
+              <span class="project-status"><span></span> PROTOTYPE BUILT</span>
+            </div>
+
+            <div class="project-info">
+              <span class="project-category">EMBEDDED C · SPI · ACCESS CONTROL</span>
+              <h3>RFID-Based Motor Control System</h3>
+              <p>
+                An Arduino UNO (ATmega328P, 16 MHz) controller using a 13.56 MHz MFRC522 reader over SPI to authenticate tag UIDs against 2 registered cards: one tag turns the motor ON, one turns it OFF, and all other UIDs are rejected. Switches a 9V motor through a 5V relay on GPIO D8, tested across a 3.3V / 5V / 9V circuit.
+              </p>
+              <div class="tag-list">
+                <span>Arduino UNO</span>
+                <span>MFRC522</span>
+                <span>SPI</span>
+                <span>Relay Module</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/mahalakshmisubburaj" target="_blank" rel="noopener noreferrer" class="project-link project-link-full">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-blood">
+              <div class="project-art-top">
+                <span class="project-number">03 / IEEE PAPER</span>
+                <i class="fa-solid fa-traffic-light"></i>
+              </div>
+              <div class="art-illustration">
+                <i class="fa-solid fa-traffic-light"></i>
+              </div>
+              <span class="project-status"><span></span> PROTOTYPE BUILT</span>
+            </div>
+
+            <div class="project-info">
+              <span class="project-category">EMBEDDED C · SENSOR INTERFACING</span>
+              <h3>Smart Traffic Signal Controller</h3>
+              <p>
+                A 4-lane junction prototype on one Arduino UNO that uses IR and ultrasonic sensors to estimate lane density and adjust green-signal time. RF-based emergency detection overrides the cycle with an immediate green and buzzer alert, then restores normal operation. Documented in an IEEE-format paper with a 6-member team.
+              </p>
+              <div class="tag-list">
+                <span>Arduino UNO</span>
+                <span>IR / Ultrasonic</span>
+                <span>RF Module</span>
+                <span>Embedded C</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/mahalakshmisubburaj" target="_blank" rel="noopener noreferrer" class="project-link project-link-full">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-cloud">
+              <div class="project-art-top">
+                <span class="project-number">04 / OPTICAL COMMS</span>
+                <i class="fa-solid fa-tower-broadcast"></i>
+              </div>
+              <div class="art-illustration">
+                <i class="fa-solid fa-satellite-dish"></i>
+              </div>
+              <span class="project-status"><span></span> PROTOTYPE BUILT</span>
+            </div>
+
+            <div class="project-info">
+              <span class="project-category">ANALOG CIRCUITS · FREE-SPACE OPTICAL COMMUNICATION</span>
+              <h3>Audio Transmission Using Laser</h3>
+              <p>
+                Laser-based audio transmission using analog optical modulation and
+                photodetection. Designed the amplification and detection circuits to
+                demonstrate free-space optical communication principles.
+              </p>
+              <div class="tag-list">
+                <span>Laser Diode</span>
+                <span>LDR</span>
+                <span>BC547</span>
+                <span>Analog Circuits</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/mahalakshmisubburaj" target="_blank" rel="noopener noreferrer" class="project-link project-link-full">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-footer">
+          <p>Interested in how I approach problems and build solutions?</p>
+          <a href="https://github.com/mahalakshmisubburaj" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            Explore My GitHub
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         SKILLS — PRESERVED
+         ================================================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">TECHNICAL TOOLKIT</span>
+          <h2>Skills I use to <span class="gradient-text">build and solve.</span></h2>
+          <p>A focused overview of my embedded, hardware and programming skills.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <span class="skill-icon"><i class="fa-solid fa-terminal"></i></span>
+              <div>
+                <h3>Programming Languages</h3>
+                <p>Writing and understanding code</p>
+              </div>
+            </div>
+            <div class="skill-items">
+              <span>C</span>
+              <span>Embedded C</span>
+              <span>C++ (Basics)</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <span class="skill-icon"><i class="fa-solid fa-microchip"></i></span>
+              <div>
+                <h3>Microcontrollers & Platforms</h3>
+                <p>Boards I build and deploy on</p>
+              </div>
+            </div>
+            <div class="skill-items">
+              <span>Arduino UNO (ATmega328P)</span>
+              <span>ESP32-CAM</span>
+              <span>Raspberry Pi 5</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <span class="skill-icon"><i class="fa-solid fa-plug"></i></span>
+              <div>
+                <h3>Embedded & Hardware Interfacing</h3>
+                <p>Connecting sensors and actuators</p>
+              </div>
+            </div>
+            <div class="skill-items">
+              <span>GPIO control</span>
+              <span>Relay-based motor switching</span>
+              <span>RFID (MFRC522, 13.56 MHz)</span>
+              <span>IR & ultrasonic sensors</span>
+              <span>RF Tx/Rx modules</span>
+              <span>LED & buzzer control</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <span class="skill-icon"><i class="fa-solid fa-network-wired"></i></span>
+              <div>
+                <h3>Communication Protocols</h3>
+                <p>Talking to peripherals and devices</p>
+              </div>
+            </div>
+            <div class="skill-items">
+              <span>SPI</span>
+              <span>UART</span>
+              <span>I2C</span>
+              <span>CAN</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <span class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+              <div>
+                <h3>Tools & Simulation</h3>
+                <p>Design, simulate and debug</p>
+              </div>
+            </div>
+            <div class="skill-items">
+              <span>Arduino IDE</span>
+              <span>Proteus</span>
+              <span>Tinkercad</span>
+              <span>Raspberry Pi OS (Linux terminal)</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <span class="skill-icon"><i class="fa-solid fa-layer-group"></i></span>
+              <div>
+                <h3>Core Concepts</h3>
+                <p>Foundations for embedded engineering</p>
+              </div>
+            </div>
+            <div class="skill-items">
+              <span>Embedded Systems</span>
+              <span>Digital Electronics</span>
+              <span>Analog Electronics</span>
+              <span>Microcontroller Architecture & Programming</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         CERTIFICATES — PRESERVED
+         ================================================= -->
+    <section class="section certificates-section" id="certificates">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">RECOGNITION & LEARNING</span>
+          <h2>Milestones worth <span class="gradient-text">celebrating.</span></h2>
+          <p>Academic achievements, internship and certifications listed on my resume.</p>
+        </div>
+
+        <div class="certificate-grid">
+
+          <a class="certificate-card" href="https://drive.google.com/file/d/1Me11Cit8ESIZitRck-L6Jqt_83L8c8iR/view" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+            <div class="certificate-icon dell-cert">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="certificate-content">
+              <span class="certificate-type">INTERNSHIP</span>
+              <h3>Embedded System Design</h3>
+              <p>Maven Silicon</p>
+            </div>
+            <i class="fa-solid fa-check-circle certificate-check"></i>
+          </a>
+
+          <a class="certificate-card" href="https://drive.google.com/file/d/1JOdv2L4Bovuaw0qTtIwPNwwMKKHBB2eI/view" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+            <div class="certificate-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="certificate-content">
+              <span class="certificate-type">FPGA · VERILOG HDL</span>
+              <h3>Implementation of ML Algorithms on FPGA</h3>
+              <p>VIT</p>
+            </div>
+            <i class="fa-solid fa-award certificate-check"></i>
+          </a>
+
+        </div>
+
+        <div class="honours-card">
+          <div class="honours-icon"><i class="fa-solid fa-medal"></i></div>
+          <div>
+            <span class="section-label">ACADEMIC HONOURS</span>
+            <h3>100% VIT STARS Scholarship</h3>
+            <p>
+              Awarded a 100% tuition fee scholarship at VIT Vellore under the
+              STARS Scheme (2023–2027) for academic excellence.
+            </p>
+          </div>
+        </div>
+
+        <div class="honours-card">
+          <div class="honours-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div>
+            <span class="section-label">SCHOOL TOPPER</span>
+            <h3>District Topper among Government School Students</h3>
+            <p>
+              Secured the highest marks among government school students in the
+              district in Higher Secondary Education (94.5%), Government Girls
+              Higher Secondary School, Sholavandan.
+            </p>
+          </div>
+        </div>
+
+        <p class="certificate-note">
+          Certificate cards describe credentials listed on my resume and link to the supporting documents.
+        </p>
+      </div>
+    </section>
+
+    <!-- =================================================
+         CONTACT — UPDATED TO MATCH YOUR SCREENSHOT
+         ================================================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">
+            <span class="gradient-text">03.</span> GET IN TOUCH
+          </span>
+          <h2>
+            Let's start a
+            <span class="gradient-text">conversation.</span>
+          </h2>
+          <p>
+            Have an opportunity or an interesting project in mind?
+            I'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+
+          <!-- Contact information -->
+          <div class="contact-info-card">
+
+            <a
+              class="contact-email"
+              href="mailto:sasikalamahalakshmi2006@gmail.com"
+            >
+              sasikalamahalakshmi2006@gmail.com
+            </a>
+
+            <div class="contact-info-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 9043660766</span>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>VIT Vellore, Tamil Nadu</span>
+            </div>
+
+            <a
+              class="contact-resume-link"
+              href="MahaLakshmi_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-file-lines"></i>
+              View / download resume
+            </a>
+
+            <div class="contact-socials">
+              <a
+                href="https://www.linkedin.com/in/mahalakshmi-subburaj-b4a29328b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="https://github.com/mahalakshmisubburaj"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formsubmit.co/sasikalamahalakshmi2006@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="New message from your portfolio">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Name</label>
+                <input
+                  type="text"
+                  id="contactName"
+                  name="name"
+                  placeholder="Your name"
+                  autocomplete="name"
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email</label>
+                <input
+                  type="email"
+                  id="contactEmail"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <input
+                type="text"
+                id="contactSubject"
+                name="subject"
+                placeholder="What's this about?"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="5"
+                placeholder="Tell me a bit more..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contact-submit">
+              Send message
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <p class="form-note">
+              Your email application is not required; the form uses FormSubmit.
+              The first submission may require email confirmation before messages
+              can be delivered.
+            </p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="#home" class="logo footer-logo">Mahalakshmi<span>.</span></a>
+
+      <p>Designed with purpose. Built with curiosity.</p>
+
+      <div class="footer-socials">
+        <a
+          href="https://github.com/mahalakshmisubburaj"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/mahalakshmi-subburaj-b4a29328b/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+
+      <span class="copyright">
+        © <span id="year">2026</span> Mahalakshmi S. All rights reserved.
+      </span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="toTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+</body>
+</html>
